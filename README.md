@@ -1,6 +1,10 @@
 # ionic2-filesaver
 
-Basic example on how to save data to file on ionic 2 project.
+Basic example with basics usage of:
+
+-save json data to csv file (page 1)
+-save html table data to xls file (page 2)
+-use of print function
 
 ## instalation:
 ```bash

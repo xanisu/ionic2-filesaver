@@ -4,6 +4,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
+import { Page3 } from '../pages/page3/page3';
 
 
 @Component({
@@ -22,7 +23,9 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'JSON to CSV', component: Page1 },
-      { title: 'Blob to XLS', component: Page2 }
+      { title: 'Blob to XLS', component: Page2 },
+      { title: 'Print', component: Page3 },
+
     ];
 
   }
